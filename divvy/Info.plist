@@ -33,8 +33,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
@@ -42,7 +40,7 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>http://192.168.1.17:3000/login</key>
+			<key>http://10.232.14.126:3000/</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>

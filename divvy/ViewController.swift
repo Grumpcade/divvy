@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var home: UIBarButtonItem!
     @IBAction func homePress(sender: AnyObject)
     {
-        let url = NSURL (string: "http://192.168.1.17:3000");
+        let url = NSURL (string: "http://10.232.14.126:3000");
         let requestObj = NSURLRequest(URL: url!);
         webView.loadRequest(requestObj);
 
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         // let url = NSURL (string: "https://m.facebook.com/");
         
-        let url = NSURL (string: "http://192.168.1.17:3000/login");
+        let url = NSURL (string: "http://10.232.14.126:3000");
         let requestObj = NSURLRequest(URL: url!);
         webView.loadRequest(requestObj);
     }
